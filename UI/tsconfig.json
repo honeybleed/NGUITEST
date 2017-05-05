@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noEmitHelpers": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "lib": ["es2015", "dom"],
+    "outDir": "./lib",
+    "declaration": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "inlineSources": true,
+    "skipLibCheck": true,
+    "stripInternal": true
+  },
+  "files": [
+    "index.ts"
+  ],
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true
+  }
+}
