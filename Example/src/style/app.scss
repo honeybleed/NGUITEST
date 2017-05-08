@@ -6,3 +6,11 @@ body {
 a {
     color: #03A9F4;
 }
+@font-face {
+  font-family: 'iconfont';  /* project id 106029 */
+  src: url('//at.alicdn.com/t/font_68zfogb4kmbtvs4i.eot');
+  src: url('//at.alicdn.com/t/font_68zfogb4kmbtvs4i.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_68zfogb4kmbtvs4i.woff') format('woff'),
+  url('//at.alicdn.com/t/font_68zfogb4kmbtvs4i.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_68zfogb4kmbtvs4i.svg#iconfont') format('svg');
+}

@@ -3,3 +3,5 @@
  */
 export { IconComponent } from './icon.component';
 export { IconModule } from './icon.module';
+export { Icon } from './icon.type';
+export { IconService, IconServiceConfig } from './icon.service';

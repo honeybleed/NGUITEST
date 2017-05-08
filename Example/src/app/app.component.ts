@@ -8,8 +8,11 @@ import '../style/app.scss';
 })
 export class AppComponent {
   title: string;
-
+  appIcon: string;
+  xxx: string;
   constructor() {
     this.title = 'Hello World';
+    this.appIcon = 'user';
+    this.xxx = 'wwwww';
   }
 }

@@ -4,8 +4,8 @@
     "module": "commonjs",
     "emitDecoratorMetadata": true,
     "moduleResolution": "node",
-    "experimentalDecorators": true,
-    "sourceMap": true,
+    "inlineSourceMap": true,
+   // "sourceMap": true,
     "noEmitHelpers": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -13,15 +13,16 @@
     "outDir": "./lib",
     "declaration": true,
     "baseUrl": ".",
-    "rootDir": ".",
+    "rootDir": "src",
     "inlineSources": true,
     "skipLibCheck": true,
-    "stripInternal": true
+    "stripInternal": true,
+    "experimentalDecorators": true
   },
-  "files": [
-    "index.ts"
-  ],
   "angularCompilerOptions": {
-    "strictMetadataEmit": true
+    "strictMetadataEmit": true,
+    "experimentalDecorators": true,
+    "forkChecker": true,
+    "useWebpackText": true
   }
 }

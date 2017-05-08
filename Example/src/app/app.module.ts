@@ -7,13 +7,14 @@ import { AppComponent } from './app.component';
 
 import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 import { IconModule } from 'ng2-ui';
+import { iconConfig } from './icon.config';
 
 @NgModule({
   imports: [
     BrowserModule,
     HttpModule,
     FormsModule,
-    IconModule
+    IconModule.forRoot(iconConfig)
   ],
   declarations: [
     AppComponent,
