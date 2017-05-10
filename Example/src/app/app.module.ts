@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 
 import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
-import { IconModule } from 'ng2-ui';
+import { IconModule } from 'aaron-ui';
 import { iconConfig } from './icon.config';
 
 @NgModule({

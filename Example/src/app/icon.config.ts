@@ -1,4 +1,4 @@
-import { Icon, IconServiceConfig } from 'ng2-ui';
+import { Icon, IconServiceConfig } from 'aaron-ui';
 /**
  * Created by honeybleed on 2017/5/8.
  */
